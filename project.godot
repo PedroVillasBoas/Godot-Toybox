@@ -10,9 +10,19 @@ config_version=5
 
 [application]
 
-config/name="New Game Project"
+config/name="Godot Toybox"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[file_customization]
+
+folder_colors={
+"res://assets/": "orange",
+"res://scenes/": "blue",
+"res://scripts/": "yellow",
+"res://shaders/": "pink",
+"res://splashscreens/": "teal"
+}
 
 [physics]
 
