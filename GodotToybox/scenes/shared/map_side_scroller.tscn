@@ -1,0 +1,131 @@
+[gd_scene format=3 uid="uid://bwnjy1wblragu"]
+
+[ext_resource type="Texture2D" uid="uid://dyitmrt0nfysw" path="res://assets/kenney_shape-characters/PNG/Double/tile_left.png" id="1_ghlbr"]
+[ext_resource type="Texture2D" uid="uid://d34tps4xy10y" path="res://assets/kenney_shape-characters/PNG/Double/tile_center.png" id="2_t18re"]
+[ext_resource type="Texture2D" uid="uid://bhpjrg3fkrbwq" path="res://assets/kenney_shape-characters/PNG/Double/tile_right.png" id="3_odmlr"]
+[ext_resource type="Texture2D" uid="uid://32bg8d40d4y1" path="res://assets/kenney_shape-characters/PNG/Double/tile_background_grass.png" id="4_modrj"]
+[ext_resource type="Texture2D" uid="uid://iysdsg6tvqow" path="res://assets/kenney_shape-characters/PNG/Double/tile_background_tree_large.png" id="5_358jp"]
+[ext_resource type="Texture2D" uid="uid://d21gqeclssq55" path="res://assets/kenney_shape-characters/PNG/Double/tile_cloud.png" id="7_pbsn5"]
+
+[node name="MapSideScroller" type="Node2D" unique_id=2056313509]
+
+[node name="Tiles" type="Node2D" parent="." unique_id=510862411]
+position = Vector2(250, 451)
+
+[node name="TileLeft" type="Sprite2D" parent="Tiles" unique_id=485090755]
+position = Vector2(-64, -5.9604645e-08)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1_ghlbr")
+
+[node name="TileCenter" type="Sprite2D" parent="Tiles" unique_id=1104583979]
+position = Vector2(-1.1920929e-07, -5.9604645e-08)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("2_t18re")
+
+[node name="TileRight" type="Sprite2D" parent="Tiles" unique_id=1219719879]
+position = Vector2(64, -5.9604645e-08)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("3_odmlr")
+
+[node name="Tiles2" type="Node2D" parent="." unique_id=100224091]
+position = Vector2(808, 574)
+
+[node name="TileLeft" type="Sprite2D" parent="Tiles2" unique_id=362407525]
+position = Vector2(-64, -5.9604645e-08)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1_ghlbr")
+
+[node name="TileCenter" type="Sprite2D" parent="Tiles2" unique_id=1893750248]
+position = Vector2(-1.1920929e-07, -5.9604645e-08)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("2_t18re")
+
+[node name="TileRight" type="Sprite2D" parent="Tiles2" unique_id=356878623]
+position = Vector2(64, -5.9604645e-08)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("3_odmlr")
+
+[node name="Tiles3" type="Node2D" parent="." unique_id=1189269236]
+position = Vector2(681, 227)
+
+[node name="TileLeft" type="Sprite2D" parent="Tiles3" unique_id=1625109034]
+position = Vector2(-64, -5.9604645e-08)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1_ghlbr")
+
+[node name="TileCenter" type="Sprite2D" parent="Tiles3" unique_id=1847229628]
+position = Vector2(-1.1920929e-07, -5.9604645e-08)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("2_t18re")
+
+[node name="TileRight" type="Sprite2D" parent="Tiles3" unique_id=1726507139]
+position = Vector2(64, -5.9604645e-08)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("3_odmlr")
+
+[node name="Props" type="Node2D" parent="." unique_id=1806205507]
+
+[node name="TileBackgroundGrass" type="Sprite2D" parent="Props" unique_id=229060892]
+position = Vector2(173, 412)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("4_modrj")
+
+[node name="TileBackgroundGrass2" type="Sprite2D" parent="Props" unique_id=818778935]
+position = Vector2(325, 412)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("4_modrj")
+
+[node name="TileBackgroundGrass3" type="Sprite2D" parent="Props" unique_id=1308329356]
+position = Vector2(736, 535)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("4_modrj")
+
+[node name="TileBackgroundTreeLarge" type="Sprite2D" parent="Props" unique_id=1947920751]
+position = Vector2(872, 470)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("5_358jp")
+
+[node name="TileBackgroundTreeLarge2" type="Sprite2D" parent="Props" unique_id=1356393209]
+position = Vector2(617, 123)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("5_358jp")
+
+[node name="TileCloud" type="Sprite2D" parent="Props" unique_id=1160322588]
+self_modulate = Color(1, 1, 1, 0.7764706)
+position = Vector2(119, 84)
+texture = ExtResource("7_pbsn5")
+
+[node name="TileCloud2" type="Sprite2D" parent="Props" unique_id=657456310]
+self_modulate = Color(1, 1, 1, 0.7764706)
+position = Vector2(152, 84)
+texture = ExtResource("7_pbsn5")
+
+[node name="TileCloud3" type="Sprite2D" parent="Props" unique_id=352440764]
+self_modulate = Color(1, 1, 1, 0.7764706)
+position = Vector2(223, 116)
+texture = ExtResource("7_pbsn5")
+
+[node name="TileCloud4" type="Sprite2D" parent="Props" unique_id=1730165341]
+self_modulate = Color(1, 1, 1, 0.7764706)
+position = Vector2(256, 116)
+texture = ExtResource("7_pbsn5")
+
+[node name="TileCloud5" type="Sprite2D" parent="Props" unique_id=147377316]
+self_modulate = Color(1, 1, 1, 0.7764706)
+position = Vector2(868, 166)
+texture = ExtResource("7_pbsn5")
+
+[node name="TileCloud6" type="Sprite2D" parent="Props" unique_id=1401820529]
+self_modulate = Color(1, 1, 1, 0.7764706)
+position = Vector2(901, 166)
+texture = ExtResource("7_pbsn5")
+
+[node name="TileCloud7" type="Sprite2D" parent="Props" unique_id=1288232769]
+self_modulate = Color(1, 1, 1, 0.7764706)
+position = Vector2(972, 133)
+texture = ExtResource("7_pbsn5")
+
+[node name="TileCloud8" type="Sprite2D" parent="Props" unique_id=2065363046]
+self_modulate = Color(1, 1, 1, 0.7764706)
+position = Vector2(1005, 133)
+texture = ExtResource("7_pbsn5")

@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://cvt7i10n5wu1j"]
+
+[ext_resource type="PackedScene" uid="uid://dqjxx2ntlruvd" path="res://scenes/shaders/breakable-glass/breakable_glass.tscn" id="1_qvud4"]
+[ext_resource type="PackedScene" uid="uid://bwnjy1wblragu" path="res://scenes/shared/map_side_scroller.tscn" id="1_vtg82"]
+[ext_resource type="PackedScene" uid="uid://bs73pmx24d3jx" path="res://scenes/shared/blue_character.tscn" id="3_84fvr"]
+[ext_resource type="PackedScene" uid="uid://dgutxpbjvsgr4" path="res://scenes/shared/red_character.tscn" id="4_wmaqw"]
+[ext_resource type="PackedScene" uid="uid://bahg6s1eq0ubq" path="res://scenes/shared/purple_character.tscn" id="5_eh1fp"]
+
+[node name="BreakeableGlassDemo" type="Node2D" unique_id=2129844906]
+
+[node name="MapSideScroller" parent="." unique_id=2056313509 instance=ExtResource("1_vtg82")]
+
+[node name="BlueCharacter" parent="." unique_id=1287623607 instance=ExtResource("3_84fvr")]
+position = Vector2(730, 134)
+rotation = 3.1059496
+scale = Vector2(0.6, 0.6)
+
+[node name="RedCharacter" parent="." unique_id=1742290318 instance=ExtResource("4_wmaqw")]
+position = Vector2(811, 484.00003)
+scale = Vector2(0.6, 0.6)
+
+[node name="PurpleCharacter" parent="." unique_id=231056550 instance=ExtResource("5_eh1fp")]
+position = Vector2(248, 361)
+rotation = -0.33248135
+scale = Vector2(0.6, 0.6)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=93909822]
+anchor_mode = 0
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=470868663]
+
+[node name="BreakableGlass" parent="CanvasLayer" unique_id=1338116564 instance=ExtResource("1_qvud4")]

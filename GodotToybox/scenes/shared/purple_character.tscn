@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bahg6s1eq0ubq"]
+
+[ext_resource type="Texture2D" uid="uid://2yrs11eew1uy" path="res://assets/kenney_shape-characters/PNG/Double/purple_body_squircle.png" id="1_g6ewu"]
+[ext_resource type="Texture2D" uid="uid://b8bpvvgowxdaf" path="res://assets/kenney_shape-characters/PNG/Double/face_g.png" id="2_ocd2j"]
+[ext_resource type="Texture2D" uid="uid://i7gwyi8los00" path="res://assets/kenney_shape-characters/PNG/Double/shadow.png" id="3_44467"]
+
+[node name="PurpleCharacter" type="Node2D" unique_id=231056550]
+
+[node name="PurpleBodySquircle" type="Sprite2D" parent="." unique_id=1144509666]
+texture = ExtResource("1_g6ewu")
+
+[node name="FaceG" type="Sprite2D" parent="." unique_id=804229823]
+texture = ExtResource("2_ocd2j")
+
+[node name="Shadow" type="Sprite2D" parent="." unique_id=1452904206]
+visible = false
+position = Vector2(0, 121)
+scale = Vector2(1.4000001, 1.4)
+texture = ExtResource("3_44467")
